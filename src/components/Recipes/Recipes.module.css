@@ -1,0 +1,33 @@
+
+.main {
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0 30px;
+}
+
+.chosenCategory {
+    font-size: 35px;
+    margin: 10px 0 20px 32px;
+}
+
+.container { 
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.back {
+    padding: 7px 10px; 
+    margin-top: 40px;
+    margin-left: 25px;
+    background-color:#caa58d88;
+    border-radius: 5px;
+    font-family: "Playfair Display", Serif;
+    font-size: 18px;
+    color:  #422202;
+    text-decoration: none;
+    border: none;
+    display: inline-block;
+}

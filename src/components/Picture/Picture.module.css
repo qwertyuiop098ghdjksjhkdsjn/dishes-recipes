@@ -1,0 +1,26 @@
+
+.image{
+    width: 100%;
+}
+
+.picture{
+    position: absolute;
+    top: 150px;
+    left: 240px;
+    color: rgb(253, 241, 221);
+    font-size: 20px;
+}
+
+.paragraph1 {
+    font-weight: bold;
+}
+
+.paragraph2 {
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.paragraph3 {
+    margin-left: 200px;
+    font-weight: bold;
+}

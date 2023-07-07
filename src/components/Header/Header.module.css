@@ -1,0 +1,41 @@
+
+.header {
+    height: 100px;
+    background: #e0cfbc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px 0 10px;
+    font-size: 25px;
+    color: #361d03;
+}
+
+.container{
+    display: flex;
+    width: 270px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.h{
+    font-size: 45px;
+    font-family: "Playfair Display", Serif;
+    background: none;
+    color: #422202;
+    border: none;
+    cursor: pointer;
+}
+
+.info{
+    display: flex;
+    font-size: 20px;
+}
+.about {
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.img {
+    height: 45px;
+    width: 100px;
+}
