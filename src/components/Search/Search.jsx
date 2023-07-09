@@ -14,14 +14,21 @@ function Search () {
      
 
     return (
-        <div>
+        <div className={style.container}>
             <input placeholder="Search recipes, for example — Arrabiata" 
             type="text" 
             value={input} 
             onChange={(event) => setInput(event.target.value)}
             className={style.text}/>
+
+            <input placeholder="Search recipes" 
+            type="text" 
+            value={input} 
+            onChange={(event) => setInput(event.target.value)}
+            className={style.text2}/>
+
             <button className={style.button} onClick={doSearch}>Search</button>
-        </div>
+        </div> 
     )
 }
 

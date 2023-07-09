@@ -7,16 +7,17 @@ function Header () {
 
     const navigate = useNavigate(); 
 
-    function main () {
+    function main () { 
             navigate("/")
     }
 
     function about () {
         navigate("/about/")
     }
-
+ 
 
     return (
+        <div className={styles.block}>
             <header className={styles.header}>
                 <div className={styles.container}>
                 <img className={styles.img} src={picture}/>
@@ -27,6 +28,8 @@ function Header () {
                 </div>
                 
             </header> 
+            </div>
+            
     )
 } 
 

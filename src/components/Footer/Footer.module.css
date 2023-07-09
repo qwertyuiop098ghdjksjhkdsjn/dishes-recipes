@@ -31,3 +31,28 @@
     cursor: pointer;
  }
 
+ @media screen and (max-width: 1200px) {
+
+   .container {
+      background: transparent;
+   }
+
+   .block{
+      width: 100px;
+   }
+
+   .icon {
+      margin: 0 auto;
+   }
+
+   .text {
+      display: none;
+   }
+
+   .text2 {
+      display: none;
+   }
+
+   
+ }
+

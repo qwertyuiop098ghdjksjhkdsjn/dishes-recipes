@@ -5,11 +5,11 @@ import styles from "./Categories.module.css";
 function Categories (props) {
 
     return (
-        <div>
+        <div className={styles.container}>
             <h3 className={styles.title}>Categories</h3>
             <div className={styles.main}>{props.info.map((item)=> <OneCategory key={item.idCategory} info={item}/>)}</div>
         </div>
     ) 
-}
+}   
 
 export default Categories

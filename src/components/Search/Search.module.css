@@ -26,6 +26,48 @@
     background-color:#caa58d3b;
     font-family: "Playfair Display", Serif;
     font-size: 17px;
-    color: #422202;
+    color: #422202; 
+}
+
+.text2{
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .text2 {
+        display: block;
+        width: 80%;
+        height: 30px;
+        margin-left: 70px;
+        background-color: transparent;
+        border-color: #caa58d;
+        border-bottom-color: #caa58d;
+        border-left-color: transparent;
+        border-top-color: transparent;
+        outline: none;
+        font-size: 15px;
+        padding-left: 15px;
+        margin-left: 58px;
+        margin-top: 20px;
+        font-family: "Playfair Display", Serif;
+    }
+
+    .button {
+        width: 30%;
+        height: 30px;
+    }
+
+    .text {
+        display: none;
+    }
+
 }
 

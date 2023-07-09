@@ -16,10 +16,11 @@ function OneCategory ({info}) {
         <div className={styles.container}>
             <img className={styles.image} src={info.strCategoryThumb}/>
             <h5 className={styles.headline}>{info.strCategory}</h5>
-            <p>{info.strCategoryDescription.slice(0, 200)}...</p>
+            <p className={styles.large}>{info.strCategoryDescription.slice(0, 200)}...</p>
+            <p className={styles.small}>{info.strCategoryDescription.slice(0, 100)}...</p>
             <Link to={"/categories/" + info.strCategory} className={styles.button}>view recipes</Link>
         </div> 
     )
 }
 
-export default OneCategory
+export default OneCategory 

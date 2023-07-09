@@ -19,7 +19,7 @@ function Recipes () {
             navigate(-1) 
         }
 
- 
+  
     return(
         <div className={styles.container}>
         <button 

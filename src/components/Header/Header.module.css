@@ -39,3 +39,37 @@
     height: 45px;
     width: 100px;
 }
+
+@media screen and (max-width: 1200px) {
+    .block {
+        max-width: 100%;
+        display: block; 
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    .img {
+        width: 30%;
+        height: 30%;
+    }
+
+    .h{
+        font-size: 30px;
+    }
+
+    
+    .container{
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+        align-items: center; 
+    }
+
+    .about {
+        font-size: 20px;
+        font-weight: normal;
+        margin: 0;
+    }
+}

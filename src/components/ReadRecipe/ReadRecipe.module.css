@@ -26,7 +26,7 @@
    border: none;
    display: inline-block;
  }
-
+ 
  .text {
     margin-left: 20px;
     text-align: justify; 
@@ -37,4 +37,32 @@
  .main {
    display: inline-block;
    margin-left: 50px;
+ }
+
+
+ @media screen and (max-width: 1200px) {
+  .main{
+    margin: 0;
+    padding: 0 10px 15px 10px;
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    display: inline-block;
+  }
+
+  .text {
+    font-size: 15px;
+    margin: 0 auto;
+ }
+ 
+ .button {
+  padding: 7px 6px; 
+  margin-top: 12px;
+  font-size: 15px;
+}
+
+
+
  }
