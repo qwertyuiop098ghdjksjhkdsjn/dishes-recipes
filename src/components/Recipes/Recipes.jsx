@@ -22,7 +22,7 @@ function Recipes () {
   
     return(
         <div className={styles.container}>
-        <button 
+        <button  
         className={styles.back}
         onClick={Navigation}>Back</button>
         <h4 className={styles.chosenCategory}>{category}</h4>

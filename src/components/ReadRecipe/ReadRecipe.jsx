@@ -23,7 +23,7 @@ function ReadRecipe (props) {
         }
 
     return (
-    <div className={styles.main}> 
+    <div className={styles.main}>  
         <div>
             <button className={styles.button} onClick={Navigation}>Back</button>
             <h1 className={styles.headline}>{instructions.strMeal}</h1>

@@ -26,6 +26,9 @@
     text-decoration: none;
     border: none;
     display: inline-block;
+    align-self: flex-start;
+    flex-shrink: 0; 
+    width: 150px;
 }  
 
 @media screen and (max-width: 1200px) {
@@ -33,4 +36,16 @@
         flex-direction: column;
         height: auto;
     }
+
+    .button {
+        padding: 7px 10px; 
+        background-color:#caa58d;
+        border-radius: 10px;
+        font-family: "Playfair Display", Serif;
+        font-size: 15px;
+        color:  #422202;
+        text-decoration: none;
+        border: none;
+        display: inline-block;
+    }  
 }
