@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import style from "./SearchResult.module.css";
 
 function SearchResult () {
@@ -18,13 +18,22 @@ function SearchResult () {
 
     useEffect(()=> doSearch (), [])
 
+    const navigate = useNavigate()
+    function Navigation (id) {
+        navigate("/recipes/" + id)
+    }
+
     return (
-        <div>
-            <p>{search.map((search) => <div className={style.main}>
+        <div className={style.container1}>
+            {search.map((search) => 
+            <div className={style.main}>
                 <h4 className={style.h}>{search.strMeal}</h4>
-                <div className={style.container}><img src={search.strMealThumb}/>
-                <p>{search.strInstructions}</p></div>
-                </div>)}</p>
+                <div className={style.container}>
+                    <img src={search.strMealThumb}/>
+                    <p>{search.strInstructions.slice(0, 400)}...</p>
+                    <button className={style.button} onClick={()=> Navigation(search.idMeal)}>show full recipe</button>
+                </div>
+                </div>)}
         </div>
     )
 }

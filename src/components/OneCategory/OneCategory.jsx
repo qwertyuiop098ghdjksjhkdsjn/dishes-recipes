@@ -19,7 +19,7 @@ function OneCategory ({info}) {
             <p className={styles.large}>{info.strCategoryDescription.slice(0, 200)}...</p>
             <p className={styles.small}>{info.strCategoryDescription.slice(0, 100)}...</p>
             <Link to={"/categories/" + info.strCategory} className={styles.button}>view recipes</Link>
-        </div> 
+        </div>  
     )
 }
 
