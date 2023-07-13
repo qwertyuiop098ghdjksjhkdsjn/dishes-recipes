@@ -21,6 +21,6 @@ function OneCategory ({info}) {
             <Link to={"/categories/" + info.strCategory} className={styles.button}>view recipes</Link>
         </div>  
     )
-}
+} 
 
 export default OneCategory 

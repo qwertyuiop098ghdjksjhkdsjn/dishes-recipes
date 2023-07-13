@@ -9,7 +9,7 @@ function OneRecipe ({information}) {
             <p className={styles.p}>{information.strMeal}</p>
             <Link to={"/recipes/" + information.idMeal} className={styles.button}>view recipe</Link>
         </div>
-        
+         
     ) 
 } 
   

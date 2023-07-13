@@ -14,7 +14,7 @@ function Header () {
     function about () {
         navigate("/about/")
     }
- 
+  
 
     return (
         <div className={styles.block}>
